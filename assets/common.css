@@ -76,7 +76,7 @@ footer{
     footer{
         flex-direction: column;
         gap: 0.2rem;
-        width: auto;
+        width:100%;
         text-align: center;
         position: fixed;
     }
