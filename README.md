@@ -14,3 +14,6 @@ https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
 
 ## Font
 'https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap'
+
+## Deployed Link
+https://himanshi-photoworld.netlify.app/
