@@ -17,5 +17,13 @@
     position: relative;
     top : -4px;
     left : -4px;
-    box-shadow: 9px 8px 0px var(--pink);
+    box-shadow: 9px 8px 0px ;
+}
+
+.footerlinks {
+    color : rgb(163, 180, 124);
+}
+
+.footerlinks:hover {
+    color : grey;
 }

@@ -7,21 +7,30 @@ body, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Overlock SC', cursive;
 }
 
+@keyframes example {
+    0%   {background-color: rgb(208, 208, 116);}
+    25%  {background-color: burlywood;}
+    50%  {background-color:navajowhite;}
+    100% {background-color: var(--light-pink);}
+}
+
 body{
-    background-color: var(--light-pink);
     min-height: calc(100vh - 5rem);
     position: relative;
     padding-bottom: 5rem !important;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 nav{
-    background-color: var(--blue);
+    background-color: black;
 }
 
 nav .title{
     padding: 0.75rem;
     padding-left: 0px;
-    color : black;
+    color : white;
     text-decoration: none;
     display: inline-block;
 }
@@ -36,8 +45,12 @@ nav .search {
     font-family: 'Overlock SC', cursive;
     padding : 0.30rem 0.75rem;
     margin: 1px;
-    border: 2px solid;
-    border-radius: 4%;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+nav .search:hover{
+    cursor: pointer;
 }
 
 nav .search:focus{
@@ -58,7 +71,7 @@ nav form {
 footer{
     position: absolute;
     bottom: 0px;
-    background-color: var(--blue);
+    background-color: black;
     width : calc(100% - 2rem);
     padding: 0.75rem;
     display: flex;
@@ -66,6 +79,15 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    color: white;
+}
+
+.footerlinks {
+    color : rgb(163, 180, 124);
+}
+
+.footerlinks:hover {
+    color : grey;
 }
 
 @media screen and (max-width : 830px) {
@@ -78,7 +100,7 @@ footer{
         gap: 0.2rem;
         width:100%;
         text-align: center;
-        position: fixed;
+        /*position: fixed;*/
     }
 
     body{
