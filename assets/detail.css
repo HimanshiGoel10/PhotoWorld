@@ -16,13 +16,13 @@
 }
 
 .description {
-    color: white;
-    text-shadow: 0 0 3px black;
+    color:darkslategrey;
+    text-shadow: 0 0 3px white;
 }
 
 #alt_description {
-    color: white;
-    text-shadow: 0 0 3px black;
+    color: darkslategrey;
+    text-shadow: 0 0 3px white;
 }
 
 .detail img:hover{
